@@ -37,9 +37,16 @@
       <recent name="C:\Users\Farshad-S\Documents\GitHub\LaborArbeitAppDev2" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server" />
       <module name="Main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -48,6 +55,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -61,6 +69,7 @@
       <updated>1640609087389</updated>
       <workItem from="1640609089093" duration="1279000" />
       <workItem from="1640611229292" duration="87000" />
+      <workItem from="1640703129714" duration="46000" />
     </task>
     <servers />
   </component>
