@@ -2,12 +2,21 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Mitarbeiter {
+public class Mitarbeiter extends Personen{
 
     int mitarbeiterNr;
     private double gehalt;
 
-    public static boolean mitarbeiterPruefung(int kundennr) {
+
+    public Mitarbeiter(int MitarbeiterNR, double Gehalt,String vorname, String nachname, int alter, String strasse, String plz, String hausnr, String ort){
+        super(vorname,nachname,alter,strasse,plz,hausnr,ort);
+        this.mitarbeiterNr = MitarbeiterNR;
+        this.gehalt = Gehalt;
+
+    }
+
+    public static boolean mitarbeiterPruefung(int kundennr)
+    {
         if (ExternesUnternehmen.bonitaetspruefung(kundennr)){
             System.out.println("Bonitätsprüfung war erfolgreich.");
         }
@@ -19,7 +28,9 @@ public class Mitarbeiter {
         else return false;
     }
     static Connection conn = null;
-    public void erhaeltProvision(int ePGeld) {
+
+    public void erhaeltProvision(int ePGeld)
+    {
         gehalt += ePGeld;
         try {
             String sql = "UPDATE mitarbeiter SET gehalt="+gehalt+"WHERE MitarbeiterNr="+mitarbeiterNr;

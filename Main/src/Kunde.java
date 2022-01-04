@@ -1,20 +1,21 @@
-public class Kunde {
+public class Kunde extends Personen {
 
-    int kundennr;
-    boolean persoDaten = true;
+    static int kundennr;
+    boolean persoDaten;
+
+    public Kunde(String vorname, String nachname, String gebuDatum, String strasse, String plz, String hausnr, String ort) {
+        super(vorname, nachname, gebuDatum, strasse, plz, hausnr, ort);
+
+        kundennr = kundennr + 1;
+        this.persoDaten = false;
+    }
+
 
     public boolean kVunterschrieben(String unterschrift) {
-        System.out.println("Möchten Sie den Vertrag unterschreiben? y/n");
-        if (System.console().readLine() == "y") {
-            System.out.println("Bitte unterschreiben Sie hier:");
-            unterschrift = System.console().readLine();
-            while (unterschrift == "") {
-                System.out.println("Bitte unterschreiben Sie hier:");
-                unterschrift = System.console().readLine();
-            }
+        if (unterschrift != null) {
             System.out.println("Vielen Dank!");
             return true;
         }
-        else return false;
+        return false;
     }
 }

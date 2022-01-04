@@ -1,0 +1,149 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5c8c29cc-77f6-473f-91e3-2849497f531f\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Main/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Main/src/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/production/Main/Main.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Main/Main.class\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/Main/src/Main.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"22rwbq73mi6Bu8iCTJU5eohjAHY\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"jdk.selected.JAVA_MODULE\" value=\"openjdk-17\" />\r\n    <property name=\"last_opened_file_path\" value=\"$USER_HOME$/IdeaProjects/fluginfo\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Farshad-S\\Documents\\GitHub\\LaborArbeitAppDev2\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.Main\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"Main\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Server\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Server\" />\r\n      <module name=\"Main\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"Application.Server\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5c8c29cc-77f6-473f-91e3-2849497f531f\" name=\"Changes\" comment=\"\" />\r\n      <created>1640609087389</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1640609087389</updated>\r\n      <workItem from=\"1640609089093\" duration=\"1279000\" />\r\n      <workItem from=\"1640611229292\" duration=\"87000\" />\r\n      <workItem from=\"1640703129714\" duration=\"46000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a22f4e1f89d54611cf84766169237bf383429022)
++++ b/.idea/workspace.xml	(date 1641303096922)
+@@ -4,7 +4,7 @@
+     <list default="true" id="5c8c29cc-77f6-473f-91e3-2849497f531f" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Main/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/Main.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Main/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Server.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -35,6 +35,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
+     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/fluginfo" />
++    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+@@ -73,7 +74,9 @@
+       <updated>1640609087389</updated>
+       <workItem from="1640609089093" duration="1279000" />
+       <workItem from="1640611229292" duration="87000" />
+-      <workItem from="1640703129714" duration="46000" />
++      <workItem from="1640703129714" duration="105000" />
++      <workItem from="1641293639217" duration="1417000" />
++      <workItem from="1641302881806" duration="212000" />
+     </task>
+     <servers />
+   </component>
+Index: Main/src/Server.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.net.MalformedURLException;\r\nimport java.rmi.AlreadyBoundException;\r\nimport java.rmi.Naming;\r\nimport java.rmi.NotBoundException;\r\nimport java.rmi.RemoteException;\r\nimport java.rmi.registry.Registry;\r\n\r\npublic class Server {\r\n\r\n    public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException, NotBoundException {\r\n        Registry reg = java.rmi.registry.LocateRegistry.createRegistry(1099);\r\n        Naming.bind(\"rmi://localhost:1099/tarif_server\",new vertragInfo());\r\n\r\n        //Mitarbeiter anlegen, Name, Vorname, Geburtstag, Adresse\r\n        // --> Mitarbeiter kriegt eine MitarbeiterNR\r\n        // --> Gehalt wird gesetzt\r\n        // --> kriegt pro Kunde Provision\r\n        // --> Mitarbeiter kann Kunden Bonität nochmal prüfen (Ja/Nein)\r\n\r\n\r\n        //Mobilfunkanbierter\r\n        // --> verfügbarkeit der Verträge prüfen (gesamt Anzahl verträge)\r\n        // --> Vertrag bestätigen daraus folgt Vertrag kriegt VertragNR\r\n        // --> Kunden in die Datenbank pflegen (SQL)\r\n\r\n\r\n        //Externes Unternehmen\r\n        // --> prüft Bonität\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Main/src/Server.java b/Main/src/Server.java
+--- a/Main/src/Server.java	(revision a22f4e1f89d54611cf84766169237bf383429022)
++++ b/Main/src/Server.java	(date 1641303096862)
+@@ -4,12 +4,13 @@
+ import java.rmi.NotBoundException;
+ import java.rmi.RemoteException;
+ import java.rmi.registry.Registry;
++import java.sql.*;
+ 
+ public class Server {
+ 
+-    public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException, NotBoundException {
++    public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException, NotBoundException, SQLException, ClassNotFoundException {
+         Registry reg = java.rmi.registry.LocateRegistry.createRegistry(1099);
+-        Naming.bind("rmi://localhost:1099/tarif_server",new vertragInfo());
++        //Naming.bind("rmi://localhost:1099/tarif_server",new vertragInfo());
+ 
+         //Mitarbeiter anlegen, Name, Vorname, Geburtstag, Adresse
+         // --> Mitarbeiter kriegt eine MitarbeiterNR
+@@ -27,5 +28,38 @@
+         //Externes Unternehmen
+         // --> prüft Bonität
+ 
++        //SQL
++        String dbURL = "jdbc:mariadb://localhost/test";
++        String driver = "org.mariadb.jdbc.Driver";
++        Class.forName(driver);
++        Connection conn = DriverManager.getConnection(dbURL, "root", "");
++        Statement statement = conn.createStatement();
++
++        //get Info execute(...) – Methode erwartet eine Zeichenkette als Parameter
++        //statement.execute("SELECT * FROM Kunde");
++
++        //Liefert ein ResultSet-Objekt mit den Ergebnissen der Abfrage zurück
++        ResultSet res1 = statement.getResultSet();
++
++
++        //get Methode erhält eine SQL-Abfrage(!) als Zeichenkette als Parameter;
++        String sql = "SELECT * FROM EMPLOYEE";
++        statement = conn.createStatement();
++        //Liefert ein ResultSet-Objekt mit den Ergebnissen der Abfrage zurück
++        ResultSet res2 = statement.executeQuery(sql);
++
++        try
++        {
++            while( res1.next() ) // solange noch Zeilen im Ergebnis
++            {
++                // jeweils Spalten mit Namen 'kdNr' und 'name' ausgeben
++                System.out.println(res1.getInt("kdNr")+ " " +res1.getString("name"));
++            }
++        }catch (Exception e){
++
++        }
++
++        //insert
++        //statement.executeUpdate("INSERT INTO Customers " + "VALUES (1001, 'Simpson', 'Mr.', 'Springfield', 2001)");
+     }
+ }
+Index: Main/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><<<<<<< Updated upstream\r\nimport java.net.MalformedURLException;\r\nimport java.rmi.Naming;\r\nimport java.rmi.NotBoundException;\r\nimport java.rmi.RemoteException;\r\n\r\npublic class Main {\r\n\r\n    public static void main(String[] args) throws MalformedURLException, NotBoundException, RemoteException {\r\n\r\n        Vertraege tarif = (Vertraege) Naming.lookup(\"rmi://localhost:1099/tarif_server\");\r\n\r\n        //Willkommen Satz\r\n\r\n\r\n        //Kunden anlegen, Name, Vorname, Geburtstag, Adresse\r\n        // --> Kunde kriegt eine KundenNR\r\n        // --> Persodaten prüfen\r\n        // --> Unterschreibt\r\n\r\n\r\n\r\n        //Kunde\r\n        //kunden nr prüfen\r\n        int aKunde = 12;\r\n        if( tarif.gesamtAnzahlVertraege() < 42 )\r\n        {\r\n            //existiert die Nr 12\r\n            if(tarif.vertragNr(aKunde) )\r\n            {\r\n                System.out.println(\"Vertrag: \" + aKunde + \" Existiert bereich\");\r\n            }\r\n\r\n        }else\r\n        {\r\n            System.out.println(\"keine freien plätze\");\r\n        }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Main/src/Main.java b/Main/src/Main.java
+--- a/Main/src/Main.java	(revision a22f4e1f89d54611cf84766169237bf383429022)
++++ b/Main/src/Main.java	(date 1641303092214)
+@@ -1,4 +1,3 @@
+-<<<<<<< Updated upstream
+ import java.net.MalformedURLException;
+ import java.rmi.Naming;
+ import java.rmi.NotBoundException;
+@@ -8,7 +7,7 @@
+ 
+     public static void main(String[] args) throws MalformedURLException, NotBoundException, RemoteException {
+ 
+-        Vertraege tarif = (Vertraege) Naming.lookup("rmi://localhost:1099/tarif_server");
++        //Vertraege tarif = (Vertraege) Naming.lookup("rmi://localhost:1099/tarif_server");
+ 
+         //Willkommen Satz
+ 
+@@ -19,20 +18,5 @@
+         // --> Unterschreibt
+ 
+ 
+-
+-        //Kunde
+-        //kunden nr prüfen
+-        int aKunde = 12;
+-        if( tarif.gesamtAnzahlVertraege() < 42 )
+-        {
+-            //existiert die Nr 12
+-            if(tarif.vertragNr(aKunde) )
+-            {
+-                System.out.println("Vertrag: " + aKunde + " Existiert bereich");
+-            }
+-
+-        }else
+-        {
+-            System.out.println("keine freien plätze");
+-        }
++    }
+ }

@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c8c29cc-77f6-473f-91e3-2849497f531f" name="Changes" comment="">
+    <list default="true" id="5c8c29cc-77f6-473f-91e3-2849497f531f" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/Main/src/MobilfunkanbieterInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main/src/Personen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/src/ExternesUnternehmen.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/ExternesUnternehmen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/src/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Kunde.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/src/Mitarbeiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Mitarbeiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/src/Mobilfunkanbieter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Mobilfunkanbieter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/src/Vertraege.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/Vertraege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Main/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Main/Vertraege.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Main/vertragInfo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-17" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/fluginfo" />
@@ -77,7 +90,17 @@
       <workItem from="1640703129714" duration="105000" />
       <workItem from="1641293639217" duration="1417000" />
       <workItem from="1641302881806" duration="280000" />
+      <workItem from="1641303176723" duration="119000" />
+      <workItem from="1641303521475" duration="5878000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1641303220295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641303220295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +129,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>

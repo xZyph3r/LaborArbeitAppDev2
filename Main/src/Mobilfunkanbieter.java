@@ -1,10 +1,16 @@
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.sql.*;
 
-public class Mobilfunkanbieter {
+public class Mobilfunkanbieter extends UnicastRemoteObject implements MobilfunkanbieterInfo{
 
-
+    public Mobilfunkanbieter() throws RemoteException
+    {
+    }
     static Connection conn = null;
-    public static void getNumVertraege() {
+
+
+    public void getNumVertraege() {
         try {
             String sql = "SELECT COUNT(vertragsNR) AS total FROM vertraege WHERE aktiv = 1";
             Statement stat = conn.createStatement();
@@ -36,17 +42,23 @@ public class Mobilfunkanbieter {
         }
         else return false;
     }
-
     public void updateKundendatenbank(Kunde kunde) {
             try {
-                String sql = "INSERT INTO kunde values "+ Personen.vorname+ Personen.name+ Personen.geburtstag+ Personen.straße+ Personen.hausnummer+ Personen.postleitzahl+ Personen.ort+ kunde.persoDaten;
+                //String sql = "INSERT INTO kunde values "+ Personen.vorname+ Personen.name+ Personen.geburtstag+ Personen.straße+ Personen.hausnummer+ Personen.postleitzahl+ Personen.ort+ kunde.persoDaten;
                 Statement stat = conn.createStatement();
-                int upd = stat.executeUpdate(sql);
+                //int upd = stat.executeUpdate(sql);
 
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
         }
-    }
+
+
+
+
+
+
+
+}
 
 

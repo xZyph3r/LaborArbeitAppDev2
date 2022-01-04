@@ -10,3 +10,4 @@ public class Vertraege {
         }
         else return vertragNr;
     }
+}

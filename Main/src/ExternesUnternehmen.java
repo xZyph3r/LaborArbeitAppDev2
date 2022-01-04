@@ -7,7 +7,8 @@ public class ExternesUnternehmen {
 
         static Connection conn = null;
 
-    public static boolean bonitaetspruefung(int kundennr){
+    public static boolean bonitaetspruefung(int kundennr)
+    {
         ;
         int a = 0;
             try {
@@ -26,7 +27,5 @@ public class ExternesUnternehmen {
 
     }
     else return false;
-
-
     }
 }

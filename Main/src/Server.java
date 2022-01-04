@@ -10,7 +10,11 @@ public class Server {
 
     public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException, NotBoundException, SQLException, ClassNotFoundException {
         Registry reg = java.rmi.registry.LocateRegistry.createRegistry(1099);
-        //Naming.bind("rmi://localhost:1099/tarif_server",new vertragInfo());
+        Naming.bind("rmi://localhost:1099/Mobilfunkanbieter_server", new Mobilfunkanbieter());
+
+
+
+
 
         //Mitarbeiter anlegen, Name, Vorname, Geburtstag, Adresse
         // --> Mitarbeiter kriegt eine MitarbeiterNR
@@ -29,6 +33,7 @@ public class Server {
         // --> prüft Bonität
 
         //SQL
+        /*
         String dbURL = "jdbc:mariadb://localhost/test";
         String driver = "org.mariadb.jdbc.Driver";
         Class.forName(driver);
@@ -58,7 +63,7 @@ public class Server {
         }catch (Exception e){
 
         }
-
+        */
         //insert
         //statement.executeUpdate("INSERT INTO Customers " + "VALUES (1001, 'Simpson', 'Mr.', 'Springfield', 2001)");
     }
