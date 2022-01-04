@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
@@ -34,5 +35,13 @@ public class Main {
         {
             System.out.println("keine freien plätze");
         }
+=======
+public class Main
+{
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        System.out.println("Hello Farshad");
+
+>>>>>>> Stashed changes
     }
 }
