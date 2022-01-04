@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws MalformedURLException, NotBoundException, RemoteException {
 
-        Vertraege tarif = (Vertraege) Naming.lookup("rmi://localhost:1099/tarif_server");
+        //Vertraege tarif = (Vertraege) Naming.lookup("rmi://localhost:1099/tarif_server");
 
         //Willkommen Satz
 
@@ -18,20 +18,5 @@ public class Main {
         // --> Unterschreibt
 
 
-
-        //Kunde
-        //kunden nr prüfen
-        int aKunde = 12;
-        if( tarif.gesamtAnzahlVertraege() < 42 )
-        {
-            //existiert die Nr 12
-            if(tarif.vertragNr(aKunde) )
-            {
-                System.out.println("Vertrag: " + aKunde + " Existiert bereich");
-            }
-
-        }else
-        {
-            System.out.println("keine freien plätze");
-        }
+    }
 }
